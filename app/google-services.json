@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "173786500464",
+    "firebase_url": "https://empresalivingtech.firebaseio.com",
+    "project_id": "empresalivingtech",
+    "storage_bucket": "empresalivingtech.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:173786500464:android:6d8be7e9ee57d143",
+        "android_client_info": {
+          "package_name": "com.example.tico.empresalivingtech"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "173786500464-c8pq4t62us9dtjavf3n1mudajino5b77.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.tico.empresalivingtech",
+            "certificate_hash": "5c71c336db5987d959f9502f9f9ff078bc6c871e"
+          }
+        },
+        {
+          "client_id": "173786500464-j90c4bb1ki66uf9tpt6vk2lcmggavn17.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyABc3WqCzs3N5GRoTMu9NEfYzz8XvbLjvg"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "173786500464-j90c4bb1ki66uf9tpt6vk2lcmggavn17.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

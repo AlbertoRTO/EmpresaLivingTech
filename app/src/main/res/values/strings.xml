@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">EmpresaLivingTech</string>
+    <string name="empresa_detalhe">Sobre a Empresa</string>
+    <string name="detalhe_servivo">Servico</string>
+    <string name="servico_detalhe">Serviços</string>
+    <string name="texto_consutoria">Consultoria</string>
+    <string name="texto_suporte">Help Desk</string>
+    <string name="texto_computador">Manutenção e Upgrades em Computador</string>
+    <string name="texto_desenvolvimento">Desenvolvimento de Websites</string>
+    <string name="texto_aplicativo">Desenvolvimento de Aplicativos IOS e Android</string>
+    <string name="detalhe_cliente">Nossos Clientes</string>
+    <string name="texto_contato">Fale Conosco</string>
+</resources>

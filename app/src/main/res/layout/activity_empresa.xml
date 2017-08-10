@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".view.EmpresaActivity">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageView2"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:background="@drawable/detalhe" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="@string/empresa_detalhe"
+        android:id="@+id/textView"
+        android:textSize="30dp"
+        android:layout_alignBottom="@+id/imageView2"
+        android:layout_toRightOf="@+id/imageView2"
+        android:layout_toEndOf="@+id/imageView2" />
+
+    <ScrollView
+        android:layout_width="320dp"
+        android:layout_height="400dp"
+        android:id="@+id/scrollView"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Tecnologias Linving Tech oferecem grandes possibilidades e soluções para sua empresa, residência ou mobilidade. Grandes (e pequenos) projetos, ou apenas orientação de melhores práticas: queremos ajudá-lo a integrar a tecnologia da maior empresa de T.I. do mundo. Nosso foco é entregar a melhor solução, serviço e suporte em todas as plataformas. Somos reconhecidos pelo comprometimento com o resultado final e preocupação em exceder as expectativas de nossos clientes. A equipe trabalha dentro dos mais altos padrões de qualidade e é composta por profissionais especializados em diferentes plataformas tecnológicas. Nossa missão é transformar ideias em projetos e projetos em resultados  "
+            android:id="@+id/textView2"
+            android:layout_below="@+id/imageView2"
+            android:layout_alignLeft="@+id/scrollView"
+            android:layout_alignStart="@+id/scrollView" />
+    </ScrollView>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Voltar"
+        android:id="@+id/empresa1"
+        android:layout_above="@+id/scrollView"
+        android:layout_centerHorizontal="true" />
+
+</RelativeLayout>
